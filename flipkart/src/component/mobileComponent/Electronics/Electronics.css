@@ -1,0 +1,22 @@
+.PhonesSection{
+    display: flex;
+    margin-top: 9px;
+}
+.phoneCards img{
+    width: 160px;
+    height: 207px;
+}
+
+
+@media screen and (min-width: 425px) {
+    .phoneCards img{
+        width: 212px;
+        height: 215px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .phoneCards img{
+        width: 384px;
+        height: 497px;
+    }
+}

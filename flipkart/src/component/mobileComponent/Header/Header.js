@@ -10,18 +10,22 @@ function Header() {
   return (
     <div className="flpikartHeader">
       <div className="flipkartSubHead">
-        <img  src={hamburger} />
-        <img className="exploreHead" src={flipkartHeaderImg} />
-        <img src={addItem} />
-        <img src={cartImg} />
-        <span>Login</span>
+        <div className="exploreMainHead">
+          <img src={hamburger} />
+          <img className="exploreHead" src={flipkartHeaderImg} />
+        </div>
+        <div className="exploreWishlist">
+          <img src={addItem} />
+          <img src={cartImg} />
+          <span>Login</span>
+        </div>
       </div>
       <div className="searchProductsHead">
         <div className="searchContainer">
-        <img src={search} />
+          <img src={search} />
         </div>
         <div className="search-PlaceHolder">
-        <input placeholder="Search for Products, Brands and More" />
+          <input placeholder="Search for Products, Brands and More" />
         </div>
       </div>
     </div>

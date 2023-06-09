@@ -1,0 +1,58 @@
+.DesktopflpikartHeader {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .DesktopflpikartHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(40, 116, 240, 1);
+    padding: 7px 126px;
+  }
+
+  .HeaderOptions {
+    display: flex;
+  }
+  .DesktopflipkartSubHead img {
+    width: 102px;
+    height: 29px;
+  }
+  .DesktopsearchContainer {
+    display: flex;
+  }
+  .DesktopexploreWishlist {
+    padding: 8px 17px;
+    background-color: #fff;
+  }
+  .DesktopsearchContainer {
+    background-color: #fff;
+    height: 31px;
+    z-index: 1;
+  }
+  .DesktopsearchContainer img{
+    padding: 7px;
+  }
+  .Desktopsearch-PlaceHolder input {
+    width: 237px;
+    height: 26px;
+  }
+  .Desktopsearch-PlaceHolder{
+    margin-left: -2px;
+  }
+  .HeaderOptions{
+    color: #fff;
+  }
+  .HeaderOptions .becomeSeller {
+    padding: 3px;
+    margin: 0 9px;
+  }
+  .HeaderOptions .moreOptions{
+    padding: 3px;
+    margin: 0 9px;
+  }
+  .HeaderOptions .cart{
+    padding: 3px;
+    margin: 0 9px;
+  }
+}

@@ -9,3 +9,22 @@
 ::-webkit-scrollbar{
     display: none;
 }
+@media screen and (min-width:425px){
+    .categoriesCards img{
+        width: 77px;
+        height: 73px;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    .categoriesCards img{
+        width: 140px;
+        height: 133px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+   .cateoriesContainer{
+    display: none;
+   }
+}

@@ -9,7 +9,20 @@
 .sponsorSubContainer{
     text-align: left;
     padding: 0 12px;
+    border-bottom: 1px solid rgb(234, 234, 234);
 }
 .sponsorSubContainer h4{
     font-family: "light";
+}
+@media screen and (min-width:425px) {
+    .sponsoredCards img{
+        width: 141px;
+        height: 188px;
+    }
+}
+@media screen and (min-width:768px) {
+    .sponsoredCards img{
+        width: 256px;
+        height: 341px;
+    }
 }
