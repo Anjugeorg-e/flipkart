@@ -1,0 +1,11 @@
+.categoriesCards img{
+    width: 58px;
+    height: 55px;
+}
+.cateoriesContainer{
+    display: flex;
+    overflow-x: scroll;
+}
+::-webkit-scrollbar{
+    display: none;
+}

@@ -1,0 +1,36 @@
+.flpikartHeader{
+    background-color:rgba(40,116,240,1.00);
+    padding-block-end: 12px;
+}
+.flipkartSubHead{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 6px;
+    color: #fff;
+}
+.flipkartSubHead .exploreHead{
+    width: 85px;
+    height: 30px;
+} 
+.searchProductsHead{
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+}
+.searchContainer{
+    background-color: #fff;
+    width: 29px;
+    height: 31px;
+    z-index: 1;
+}
+
+.search-PlaceHolder input{
+    padding: 7px;
+    width: 242px;
+    white-space: nowrap;
+    margin-left: -1px;
+}
+.searchContainer img{
+    height: 16px;
+    margin-top: 8px;
+}

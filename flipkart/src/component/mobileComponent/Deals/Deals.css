@@ -1,0 +1,10 @@
+.dealsContainer{
+    display: flex;
+}
+.dealsContainer span img{
+    width: 106px;
+    height: 113px;
+}
+.dealsContainer span{
+    padding: 0;
+}

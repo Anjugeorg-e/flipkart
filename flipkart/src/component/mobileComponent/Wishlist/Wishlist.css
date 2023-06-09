@@ -1,0 +1,63 @@
+.wishlistCardsContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.dealsCards img{
+    width: 120px;
+    height: 120px;
+}
+
+.WishlistSubContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 8px 4px 16px;
+    background: linear-gradient(rgb(241, 198, 197), rgb(241, 198, 197));
+}
+.dealsCards{
+    padding: 16px 16px 12px;
+    border-right-width: 1px;
+    border-right-color: rgba(240,240,240,1.00);
+    border: 0 solid black;
+}
+.WishlistSubContainer a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #0084ff;
+    padding: 6px;
+}
+.wishlistCardsContainer{
+    background-color: #fff;
+    margin: 0 8px;
+    box-shadow: rgb(150 150 150 / 16%) 0px 1px 1.5px;
+}
+.WishlistContainer{
+    /* box-shadow: rgb(150 150 150 / 16%) 0px 2px 1px; */
+    background-color: rgb(241, 198, 197);
+    padding-bottom: 9px;
+}
+.dealsCards:nth-of-type(1){
+    border-right: 1px solid rgba(240,240,240,1.00);
+    border-bottom: 1px solid rgba(240,240,240,1.00);
+}
+.dealsCards:nth-of-type(2){
+    border-bottom: 1px solid rgba(240,240,240,1.00);
+}
+.dealsCards:nth-of-type(3){
+    border-right: 1px solid rgba(240,240,240,1.00);
+}
+/* .dealsCards:nth-of-type(4){
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; */
+/* } */
+
+.dealsCards p{
+    color: #388e3c;
+    margin: 0;
+}
+.dealsCards span{
+    font-size: 10px;
+}
