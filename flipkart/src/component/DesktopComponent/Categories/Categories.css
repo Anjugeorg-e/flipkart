@@ -1,0 +1,17 @@
+.DesktopCateoriesContainer{
+    display: none;
+}
+
+@media screen and (min-width: 1024px){
+    .DesktopCateoriesContainer{
+        display: flex;
+        overflow-x: scroll;
+    }
+    .DesktopCategoriesCards img{
+        width: 64px;
+        height: 64px;
+    }
+    .DesktopCategoriesCards{
+        padding: 12px 8px;
+    }
+}

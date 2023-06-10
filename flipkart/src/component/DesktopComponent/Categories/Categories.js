@@ -19,17 +19,15 @@ function DesktopCategories() {
     useEffect(()=>{
         fetchData();
     });
-
-
   return (
     <div>
         <div className='DesktopCateoriesContainer'>
-        {data.map((card, index) => (
-            <span className='DesktopCategoriesCards' key={index}>
-                <img src={card.image} />
-                <span>{card.title}</span>
-            </span>
-        ))}
+            {data.map((card, index) => (
+                <div className='DesktopCategoriesCards' key={index}>
+                    <img src={card.image} />
+                    <span>{card.title}</span>
+                </div>    
+            ))}
     </div>
     </div>
   )
