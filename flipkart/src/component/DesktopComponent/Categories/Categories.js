@@ -35,4 +35,3 @@ function DesktopCategories() {
 
 export default DesktopCategories;
 
-
