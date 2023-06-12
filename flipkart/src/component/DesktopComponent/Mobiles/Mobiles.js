@@ -27,8 +27,6 @@ function Mobiles() {
                 <img src={card} />
             </div>     
         ))}
-        
-
     </div>
   )
 }

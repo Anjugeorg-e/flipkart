@@ -10,6 +10,7 @@ import Electronics from "./component/mobileComponent/Electronics/Electronics";
 import DesktopHeader from "./component/DesktopComponent/Header/Header";
 import DesktopCategories from "./component/DesktopComponent/Categories/Categories";
 import Mobiles from "./component/DesktopComponent/Mobiles/Mobiles";
+import DealsFashion from "./component/DesktopComponent/DealsFashion/DealsFashion";
 
 function App() {
   return (
@@ -23,8 +24,9 @@ function App() {
 
       <Wishlist />
       <Mobiles />
-      
+
       <Sponsor />
+      <DealsFashion />
       <Spotlight />
       <Electronics />
     </div>

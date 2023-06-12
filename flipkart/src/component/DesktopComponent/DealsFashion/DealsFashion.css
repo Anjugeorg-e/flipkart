@@ -1,0 +1,32 @@
+.dealsFashionContainer {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .dealsFashionContainer {
+    display: flex;
+    overflow-x: scroll;
+  }
+  .dealFashionSubContainer {
+    margin: 0 16px;
+    padding: 15px 25px;
+  }
+  .dealFashionSubContainer img {
+    width: 150px;
+    height: 200px;
+  }
+  .fashionDescription {
+    display: flex;
+    flex-direction: column;
+  }
+  .fashionDescription .fashionOffers {
+    color: #388e3c;
+    padding: 8px 0 0;
+  }
+  .fashionDescription .fashionName{
+    margin: 15px 0 0;
+  }
+  .fashionDescription .fashionDetails{
+    padding: 7px 0 0;
+  }
+}

@@ -286,5 +286,77 @@
         "price":"Min. 40% Off",
         "description":"Sneakers, High Tops & more"
     }
+  ],
+  "electronics": [
+    "https://rukminim1.flixcart.com/fk-p-flap/960/960/image/e8890c77e9f2f7de.jpg?q=50",
+    "https://rukminim1.flixcart.com/fk-p-flap/960/960/image/64f91be1237c8713.jpg?q=50",
+    "https://rukminim1.flixcart.com/fk-p-flap/960/960/image/9d479fced70e60df.jpg?q=50"
+  ],
+  "featuredBrands":[
+    "https://rukminim1.flixcart.com/fk-p-flap/656/352/image/b3c8bf0011bb5232.jpeg?q=70",
+    "https://rukminim1.flixcart.com/fk-p-flap/656/352/image/cb67df4d903b9889.jpeg?q=70",
+    "https://rukminim1.flixcart.com/fk-p-flap/656/352/image/5964c9ef06f091b2.jpeg?q=70",
+    "https://rukminim1.flixcart.com/fk-p-flap/656/352/image/5237785d1ba28d70.jpeg?q=70",
+    "https://rukminim1.flixcart.com/fk-p-flap/656/352/image/7ece35fac08c13e6.jpeg?q=70",
+    "https://rukminim1.flixcart.com/fk-p-flap/656/352/image/ff79b00f6cf386a3.jpeg?q=70",
+    "https://rukminim1.flixcart.com/fk-p-flap/656/352/image/d7f89f1fa9886fa8.jpeg?q=70",
+    "https://rukminim1.flixcart.com/fk-p-flap/656/352/image/033c18c0a31cf2e2.jpeg?q=70",
+    "https://rukminim1.flixcart.com/fk-p-flap/656/352/image/1bd84d6094a77833.jpeg?q=70",
+    "https://rukminim1.flixcart.com/fk-p-flap/656/352/image/f14bbaa202fb8354.jpeg?q=70"
+  ],
+  "officeEquipments": [
+    "https://rukminim1.flixcart.com/fk-p-flap/960/960/image/bf5e7539ac669724.jpg?q=50",
+    "https://rukminim1.flixcart.com/fk-p-flap/960/960/image/6bef59e115b10041.jpg?q=50",
+    "https://rukminim1.flixcart.com/fk-p-flap/960/960/image/66c1732610e30e41.jpg?q=50"
+  ],
+  "DealsOnElectronics": [
+    {
+        "image": "https://rukminim1.flixcart.com/image/400/400/xif0q/printer/w/y/w/-original-imagnuwexgv5p3mk.jpeg?q=70",
+        "title":"Laser Printers",
+        "price":"From ₹10,290",
+        "description":"Canon, Brother & more"
+    },
+    {
+        "image": "https://rukminim1.flixcart.com/image/400/400/xif0q/power-bank/n/g/l/toast-10-flash-10000-opb-p118d-black-oraimo-original-imagh7hfeeayzuzs.jpeg?q=70",
+        "title":"Best Deals on Powerbanks",
+        "price":"From ₹499",
+        "description":"Ambrane, Mi, Syska & more"
+    },
+    {
+        "image": "https://rukminim1.flixcart.com/image/400/400/l31x2fk0/router/w/k/6/mr80x-mercusys-original-image9gvp3aefm2a.jpeg?q=70",
+        "title":"Top Deals On Routers!",
+        "price":"From ₹949/-",
+        "description":"Shop Now"
+    },
+    {
+        "image": "https://rukminim1.flixcart.com/image/400/400/xif0q/shopsy-power-bank/o/l/w/pp-111-10000-ambrane-original-imagg7nprsfvwttp.jpeg?q=70",
+        "title":"Ambrane Powerbanks",
+        "price":"From ₹799",
+        "description":"Fast Charging | High Capacity"
+    },
+    {
+        "image": "https://rukminim1.flixcart.com/image/400/400/k1xwcy80/cases-covers/back-cover/r/u/b/flipkart-smartbuy-fks32-original-imafhejudbaf5yw8.jpeg?q=70",
+        "title":"Mobile Back Covers",
+        "price":"From ₹119",
+        "description":"From Flipkart SmartBuy"
+    },
+    {
+        "image": "https://rukminim1.flixcart.com/fk-p-flap/400/400/image/d508237c2df9fd4a.png?q=70",
+        "title":"Screen Guards",
+        "price":"From ₹99",
+        "description":"For All Top Models"
+    },
+    {
+        "image": "https://rukminim1.flixcart.com/image/400/400/kuczmvk0/cases-covers/back-cover/w/w/t/m-12954-colorcase-original-imag7g7knnn66wdh.jpeg?q=70",
+        "title":"Plain Cases & Covers",
+        "price":"From ₹149",
+        "description":"Transparent , Solid & More"
+    },
+    {
+        "image": "https://rukminim1.flixcart.com/image/400/400/kjhgzgw0-0/cases-covers/back-cover/a/j/p/2-opp-ren2-1031-printwoodies-original-imafzfb3yp85hzm9.jpeg?q=70",
+        "title":"Cartoon Cases & Covers",
+        "price":"From ₹199",
+        "description":"For All Top Models"
+    }
   ]
 }
