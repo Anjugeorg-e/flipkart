@@ -236,5 +236,55 @@
     "https://rukminim1.flixcart.com/fk-p-flap/480/480/image/32655c2ae11bea21.jpg?q=50",
     "https://rukminim1.flixcart.com/fk-p-flap/480/480/image/0e2442f1a34ac836.jpeg?q=50",
     "https://rukminim1.flixcart.com/fk-p-flap/480/480/image/a20cec49769ebfc5.jpg?q=50"
+  ],
+  "dealsOnFashion":[
+    {
+        "image": "https://rukminim1.flixcart.com/fk-p-flap/400/400/image/324eee4e5f645574.jpg?q=70",
+        "title":"Sparx, Bata & more",
+        "price":"From ₹149",
+        "description":"Trending Now!"
+    },
+    {
+        "image": "https://rukminim1.flixcart.com/image/400/400/ksru0sw0/watch/g/z/m/1-ar11396-emporio-armani-men-original-imag69rdt9fgcff5.jpeg?q=70",
+        "title":"Tommy Hilfiger, Casio, Fossil...",
+        "price":"60-90% Off",
+        "description":"Craziest Discount Is Back!!"
+    },
+    {
+        "image": "https://rukminim1.flixcart.com/image/400/400/xif0q/shoe/h/a/k/-original-imagfyy3pzjhrbrd-bb.jpeg?q=70",
+        "title":"PUMA, ADIDAS & more",
+        "price":"Min. 50% Off",
+        "description":"Men's Shoes, Sneakers..."
+    },
+    {
+        "image": "https://rukminim1.flixcart.com/image/400/400/xif0q/shirt/d/v/z/m-hlsh014060-highlander-original-imagkc3mzqgunvfd.jpeg?q=70",
+        "title":"Peter England, Allen Solly...",
+        "price":"Min. 50%+Extra 10%Off",
+        "description":"Casual Shirts, Trousers..."
+    },
+    {
+        "image": "https://rukminim1.flixcart.com/fk-p-flap/400/400/image/ad5dfbdf138bdec2.jpg?q=70",
+        "title":"Density, Action & more",
+        "price":"From ₹399",
+        "description":"Top Rated Collections!"
+    },
+    {
+        "image": "https://rukminim1.flixcart.com/image/400/400/l111lzk0/jean/t/r/u/32-jeans-dark-blue-20-fast-train-original-imagczqcavagesxe.jpeg?q=70",
+        "title":"Flying Machine, People, Kazo",
+        "price":"Upto 80% Off",
+        "description":"Jeans, Tops, T-shirts..."
+    },
+    {
+        "image": "https://rukminim1.flixcart.com/image/400/400/xif0q/ethnic-set/g/c/l/xl-na-21020352-anouk-original-imagz4fjftvgwsu3.jpeg?q=70",
+        "title":"Kurtas & Sets",
+        "price":"From ₹199",
+        "description":"Hero Deals"
+    },
+    {
+        "image": "https://rukminim1.flixcart.com/image/400/400/xif0q/shoe/g/g/y/-original-imagg7epfcgfsva7.jpeg?q=70",
+        "title":"WROGN, Red Tape & more",
+        "price":"Min. 40% Off",
+        "description":"Sneakers, High Tops & more"
+    }
   ]
 }
