@@ -1,0 +1,15 @@
+.featuredBrands{
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .featuredBrands{
+        display: flex;
+        overflow-x: scroll;
+    }
+    .brandsContainer img{
+        width: 400px;
+        height: 215px;
+        padding: 18px 9px;
+    }
+}

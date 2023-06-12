@@ -1,0 +1,32 @@
+.carouselContainer{
+    display: flex;
+    flex-direction: row;
+}
+.carusel-img img{
+    width: 320px;
+    height: 142px;
+}
+
+@media screen and (min-width: 375px) {
+    .carusel-img img{
+        width: 375px;
+        height: 166px;
+    }
+}
+@media screen and (min-width: 425px) {
+    .carusel-img img{
+        width: 425px;
+        height: 188px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .carusel-img img{
+        width: 768px;
+        height: 341px;
+    }
+}
+@media screen and (min-width: 1024px) {
+   .carouselContainer{
+    display: none;
+   }
+}

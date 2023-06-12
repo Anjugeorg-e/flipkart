@@ -1,0 +1,15 @@
+.officeEquipmentsContainer {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .officeEquipmentsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 9px;
+  }
+  .equipmentsSubSection img{
+    width: 327px;
+    height: 175px;
+  }
+}

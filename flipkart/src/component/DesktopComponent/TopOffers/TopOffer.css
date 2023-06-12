@@ -1,0 +1,27 @@
+.offersContainer{
+    display: none;
+}
+
+@media screen and (min-width: 1024px){
+    .offersContainer{
+        display: flex;
+        overflow-x: scroll;
+    }
+    .offerCards{
+        padding: 25px 15px;
+    }
+    .offerSubContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .offerTitle{
+        margin: 15px 0 0;
+    }
+    .offerRange{
+        color: #388e3c;
+        padding: 8px 0 0;
+    }
+    .offerDescription{
+        padding: 7px 0 0 ;
+    }
+}

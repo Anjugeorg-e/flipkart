@@ -1,0 +1,31 @@
+.dealsOnElectronics{
+    display: none;
+}
+
+@media screen and (min-width:1024px){
+    .dealsOnElectronics{
+        display: flex;
+        overflow-x: scroll;
+    }
+    .electronicsSubSection img{
+        width: 150px;
+        height: 200px;
+    }
+    .electronicsSubSection{
+        padding: 25px 15px;
+    }
+    .electronicsDetails{
+        display: flex;
+        flex-direction: column;
+    }
+    .electronicsSubSection .electronicsName{
+        margin: 15px 0 0;
+    }
+    .electronicsPrice{
+        color: #388e3c;
+        padding: 8px 0 0;
+    }
+    .electronicsDescription{
+        padding: 7px 0 0;
+    }
+}

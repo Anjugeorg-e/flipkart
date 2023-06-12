@@ -20,3 +20,8 @@
         height: 497px;
     }
 }
+@media screen  and (min-width: 1024px){
+    .PhonesSection{
+        display: none;
+    }
+}

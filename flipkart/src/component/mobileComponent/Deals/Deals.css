@@ -23,3 +23,9 @@
         height: 273px;
     }
 }
+
+@media screen and (min-width: 1024px){
+    .dealsContainer{
+        display: none;
+    }
+}
