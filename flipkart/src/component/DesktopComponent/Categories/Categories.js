@@ -20,7 +20,7 @@ function DesktopCategories() {
         fetchData();
     });
   return (
-    <div>
+    <div className='CategoriesMainContainer'>
         <div className='DesktopCateoriesContainer'>
             {data.map((card, index) => (
                 <div className='DesktopCategoriesCards' key={index}>

@@ -17,6 +17,7 @@ function App() {
       <DesktopHeader />
       <Categories />
       <DesktopCategories />
+      
       <Deals />
       <Wishlist />
       <Sponsor />
