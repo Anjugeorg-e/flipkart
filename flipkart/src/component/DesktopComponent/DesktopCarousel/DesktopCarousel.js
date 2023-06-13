@@ -1,9 +1,11 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
+import leftarrow from "../Asset/img/prevarrow.svg";
 import "./DesktopCarousel.css";
 
 function CarouselDesktop() {
   const [data, setData] = useState([]);
-  const [index, setIndex] = useState(0);
+  let [index, setIndex] = useState(0);
+  const image = useRef();
 
   const fetchData = () => {
     fetch(
@@ -28,28 +30,58 @@ function CarouselDesktop() {
     setIndex(index === length - 1 ? 0 : index + 1);
   };
   useEffect(() => {
-    setTimeout(callIndex, 2000);
-  });
+    const interval = setInterval(callIndex, 2000);
+    return () => clearInterval(interval);
+  }, [data.length]);
+
+  const changeIndex = () => {
+    setIndex(index === length - 1 ? 0 : index + 1);
+  };
+
+  // const handleClickRight = () => {
+  //   setIndex(index + 1);
+  //   changeIndex();
+  //   clearInterval();
+  // };
+
+  const handleClickRight= () => {
+    setIndex((index) => (index === 0 ? data.length -1 : index- 1))
+  }
+
+  const handleClickLeft = () => {
+    index = index - 1;
+    changeIndex();
+    clearInterval();
+  };
 
   return (
     <div className="carouselDesktopContainer">
-      {data.map((item) => {
-        return (
-          <div
-            className="carusel-image" key={item}
-            style={{
-              transform: ` translateX(${-100 * index}%)`,
-              transition: "transform ease-out 0.45s",
-            }}
-          >
-            <img src={item} />
-          </div>
-        );
-      })}
+      <div className="carousalMainContainer">
+        <div className="leftSlider" onClick={handleClickLeft}>
+          <img src={leftarrow} />
+        </div>
+
+        {data.map((item) => {
+          return (
+            <div
+              className="carousel-image"
+              key={item}
+              style={{
+                transform: ` translateX(${-100 * index}%)`,
+                transition: "transform ease-out 0.45s",
+              }}
+              ref={image}
+            >
+              <img src={item} />
+            </div>
+          );
+        })}
+        <div className="rightSlider" onClick={handleClickRight} >
+          <img src={leftarrow} />
+        </div>
+      </div>
     </div>
   );
 }
 
 export default CarouselDesktop;
-
-

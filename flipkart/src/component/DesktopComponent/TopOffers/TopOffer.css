@@ -1,27 +1,133 @@
-.offersContainer{
-    display: none;
+.offersMainContainer {
+  display: none;
 }
 
-@media screen and (min-width: 1024px){
-    .offersContainer{
-        display: flex;
-        overflow-x: scroll;
-    }
-    .offerCards{
-        padding: 25px 15px;
-    }
-    .offerSubContainer{
-        display: flex;
-        flex-direction: column;
-    }
-    .offerTitle{
-        margin: 15px 0 0;
-    }
-    .offerRange{
-        color: #388e3c;
-        padding: 8px 0 0;
-    }
-    .offerDescription{
-        padding: 7px 0 0 ;
-    }
+@media screen and (min-width: 1024px) {
+  .offersMainContainer {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 5px 12px; */
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    max-width: 1600px;
+    margin-inline: auto;
+  }
+  .ofContainer {
+    background: white;
+  }
+  .offersContainer {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
+  }
+  .offerCards {
+    padding: 25px 15px;
+  }
+  .offerSubContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .offerTitle {
+    margin: 15px 0 0;
+  }
+  .offerRange {
+    color: #388e3c;
+    padding: 8px 0 0;
+  }
+  .offerDescription {
+    padding: 7px 0 0;
+  }
+
+  .offerFinalContainer img {
+    width: 230px;
+    height: 354px;
+    position: absolute;
+    right: 0px;
+    top: 0;
+  }
+  .topOffers {
+    width: 244px;
+    height: 100%;
+    padding: 127px 0px;
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/278/278/image/0b22f4bdbe5b032a.jpg?q=90);
+    background-position: 0px bottom;
+    background-repeat: no-repeat;
+  }
+  .topOffers a {
+    text-decoration: none;
+    color: #fff;
+    padding: 6px;
+    margin-bottom: 2px;
+    background-color: #2874f0;
+  }
+  .topOffers h2 {
+    font-weight: 400;
+    font-size: 25px;
+  }
+  .rightChange {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top: calc(50% - 52px);
+    z-index: 2;
+    background-color: #ffff;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.11);
+    width: 47px;
+    height: 104px;
+    right: 239px;
+  }
+  .leftChange img,
+  .rightChange img {
+    width: 14px;
+    height: 24px;
+  }
+  .ofContainer {
+    background: white;
+    z-index: 3;
+  }
+  .rightChange img {
+    transform: rotate(180deg);
+  }
+  .leftChange {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top: calc(70% - 52px);
+    background-color: #ffff;
+    z-index: 2;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.11);
+    width: 47px;
+    display: none;
+    height: 104px;
+    left: 390px;
+  }
+  .Electronics-Section {
+    overflow: hidden;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .offersMainContainer {
+    overflow: hidden;
+    margin-inline-end: 29px;
+    max-width: 1600px;
+    margin-inline: auto;
+  }
+  .offerFinalContainer {
+    z-index: 3;
+  }
+  .rightChange {
+    top: calc(50% - 52px);
+    right: 229px;
+  }
+  .leftChange {
+    top: calc(50% - 52px);
+    left: 240px;
+  }
 }

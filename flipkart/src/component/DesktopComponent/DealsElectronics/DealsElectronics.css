@@ -1,31 +1,120 @@
-.dealsOnElectronics{
-    display: none;
+.Electronics-Section {
+  display: none;
 }
 
-@media screen and (min-width:1024px){
-    .dealsOnElectronics{
-        display: flex;
-        overflow-x: scroll;
-    }
-    .electronicsSubSection img{
-        width: 150px;
-        height: 200px;
-    }
-    .electronicsSubSection{
-        padding: 25px 15px;
-    }
-    .electronicsDetails{
-        display: flex;
-        flex-direction: column;
-    }
-    .electronicsSubSection .electronicsName{
-        margin: 15px 0 0;
-    }
-    .electronicsPrice{
-        color: #388e3c;
-        padding: 8px 0 0;
-    }
-    .electronicsDescription{
-        padding: 7px 0 0;
-    }
+@media screen and (min-width: 1024px) {
+  .Electronics-Section {
+    display: block;
+    padding: 0 22px;
+    overflow: hidden;
+  }
+  .dealsOnElectronics {
+    display: flex;
+    position: relative;
+    align-items: center;
+  }
+  .electronicsContainer {
+    display: flex;
+    width: 54%;
+  }
+  .electronicsSubSection img {
+    width: 150px;
+    height: 200px;
+  }
+  .electronicsSubSection {
+    padding: 25px 15px;
+  }
+  .electronicsDealsSection a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #2874f0;
+    padding: 5px;
+  }
+  .electronicsDealsSection {
+    padding: 127px 0px;
+    background-image: url(https://rukminim1.flixcart.com/fk-p-flap/278/278/image/0b22f4bdbe5b032a.jpg?q=90);
+    background-position: 0px bottom;
+    background-repeat: no-repeat;
+  }
+  .electronicsDetails {
+    display: flex;
+    flex-direction: column;
+  }
+  .electronicsSubSection .electronicsName {
+    margin: 15px 0 0;
+  }
+  .electronicsPrice {
+    color: #388e3c;
+    padding: 8px 0 0;
+  }
+  .electronicsDescription {
+    padding: 7px 0 0;
+  }
+  .left-Movement,
+  .right-Movement {
+    position: absolute;
+    z-index: 2;
+    cursor: pointer;
+  }
+}
+.electext {
+  background: white;
+  z-index: 3;
+}
+.electronicsDealsSection {
+  z-index: 2;
+  background-color: #fff;
+}
+.right-Movement {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  top: calc(52% - 52px);
+  z-index: 2;
+  background-color: #ffff;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.11);
+  width: 47px;
+  height: 104px;
+  right: 20px;
+}
+.left-Movement img,
+.right-Movement img {
+  width: 14px;
+  height: 24px;
+}
+.right-Movement img {
+  transform: rotate(180deg);
+}
+.left-Movement {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  top: calc(56% - 52px);
+  background-color: #ffff;
+  z-index: 2;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.11);
+  width: 47px;
+  display: none;
+  height: 104px;
+  left: 270px;
+}
+
+@media screen and (min-width: 1440px) {
+ 
+  .dealsOnElectronics {
+    padding: 0 123px;
+    overflow: hidden;
+    margin-inline-end: 112px;
+  }
+  .right-Movement {
+    top: calc(48% - 52px);
+    right: 0px;
+  }
+  .left-Movement {
+    top: calc(48% - 52px);
+    height: 104px;
+    left: 400px;
+  }
 }

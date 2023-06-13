@@ -9,6 +9,13 @@
     padding: 0;
 }
 
+@media screen and (min-width:375px) {
+    .dealsContainer span img{
+        width:125px;
+        height: 151px;
+    }
+}
+
 @media screen and (min-width: 425px) {
     .dealsContainer span img{
         width:141px;

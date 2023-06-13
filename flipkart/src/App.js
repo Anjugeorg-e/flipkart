@@ -26,9 +26,10 @@ function App() {
       <Header />
       <DesktopHeader />
       <Categories />
+      <DesktopCategories />
+      <div className="BodyContainer">
       <CarouselMobile />
       <CarouselDesktop />
-      <DesktopCategories />
       <TopOffer />
       <Deals />
 
@@ -39,10 +40,11 @@ function App() {
       <HouseEquipment />
       <FeaturedBrands />
       <OfficeEquipment />
-      <DealsElectronics />
       <Sponsor />
       <Spotlight />
       <Electronics />
+      <DealsElectronics />
+      </div>
     </div>
   );
 }

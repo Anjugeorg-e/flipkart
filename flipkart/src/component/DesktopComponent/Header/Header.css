@@ -30,29 +30,41 @@
     height: 31px;
     z-index: 1;
   }
-  .DesktopsearchContainer img{
+  .DesktopsearchContainer img {
     padding: 7px;
   }
   .Desktopsearch-PlaceHolder input {
     width: 237px;
     height: 26px;
   }
-  .Desktopsearch-PlaceHolder{
+  .Desktopsearch-PlaceHolder {
     margin-left: -2px;
   }
-  .HeaderOptions{
+  .HeaderOptions {
     color: #fff;
   }
   .HeaderOptions .becomeSeller {
     padding: 3px;
     margin: 0 9px;
   }
-  .HeaderOptions .moreOptions{
+  .HeaderOptions .moreOptions {
     padding: 3px;
     margin: 0 9px;
   }
-  .HeaderOptions .cart{
+  .HeaderOptions .cart {
     padding: 3px;
     margin: 0 9px;
   }
+  
+}
+  @media screen and (min-width: 1440px) {
+    .DesktopflpikartHeader {
+      padding: 10px 382px;
+    }
+  
+  .Desktopsearch-PlaceHolder input {
+    width: 387px;
+    height: 26px;
+  }
+  
 }

@@ -13,3 +13,13 @@
         height: 175px;
     }
 }
+@media screen and (min-width: 1440px) { 
+    .mobileSubSection img{
+        width: 100%;
+        height: 100%;
+    }
+    .desktopMobilesSection{
+        padding: 13px 123px;
+        gap:9px
+    }
+}

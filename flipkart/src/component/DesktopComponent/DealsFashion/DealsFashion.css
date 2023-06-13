@@ -1,18 +1,40 @@
-.dealsFashionContainer {
+.dealsFashionMainContainer {
   display: none;
 }
 
 @media screen and (min-width: 1024px) {
+ .dealsFashionMainContainer{
+  display: flex;
+  align-items: center;
+  /* padding: 0 22px; */
+  overflow: hidden;
+  max-width: 1600px;
+  margin-inline: auto;
+ }
+.FashionContainer a{
+  text-decoration: none;
+  color: #fff;
+  background-color: #2874f0;
+  padding: 6px;
+}
+.fashion-subSection{
+  padding: 113px 0;
+  background-color: #fff;
+  z-index: 2;
+}
+.FashionContainer h2{
+  font-weight: 300;
+  font-size: 29px;
+}
   .dealsFashionContainer {
     display: flex;
-    overflow-x: scroll;
   }
   .dealFashionSubContainer {
-    margin: 0 16px;
     padding: 15px 25px;
+    width: 224px;
   }
   .dealFashionSubContainer img {
-    width: 150px;
+    width: 200px;
     height: 200px;
   }
   .fashionDescription {
@@ -28,5 +50,60 @@
   }
   .fashionDescription .fashionDetails{
     padding: 7px 0 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
+  .FashionContainer{
+    width: 344px;
+    height: 100%;
+  }
+  .dealsFashionMainContainer .rightMovement .rightarroww img{
+    box-shadow: 1px 2px 10px -1px rgb(0 0 0 / 30%);
+    background-color: hsla(0,0%,100%,.98);
+
+  }
+  .next-Movement {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top: calc(136% - 52px);
+    z-index: 2;
+    background-color: #ffff;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.11);
+    width: 47px;
+    height: 104px;
+    right: 123px;
+  }
+  .prev-Movement img, .next-Movement img{
+    width: 14px;
+    height: 24px;
+  }
+  .next-Movement img {
+    transform: rotate(180deg);
+  }
+  .prev-Movement {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top: calc(136% - 52px);
+    background-color: #ffff;
+    z-index: 2;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.11);
+    width: 47px;
+    display: none;
+    height: 104px;
+    left:390px ;
+  }
+}
+@media screen and (min-width: 1440px) {
+.FashionContainer{
+  width: 250px;
+}
+.prev-Movement {
+  top: calc(136% - 52px);
+  left:370px ;
+}
 }
