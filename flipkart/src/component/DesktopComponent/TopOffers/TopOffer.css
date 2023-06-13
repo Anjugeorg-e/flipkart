@@ -80,7 +80,7 @@
     box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.11);
     width: 47px;
     height: 104px;
-    right: 239px;
+    right: 227px;
   }
   .leftChange img,
   .rightChange img {
@@ -99,14 +99,14 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    top: calc(70% - 52px);
+    top: calc(50% - 52px);
     background-color: #ffff;
     z-index: 2;
     box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.11);
     width: 47px;
     display: none;
     height: 104px;
-    left: 390px;
+    left: 240px;
   }
   .Electronics-Section {
     overflow: hidden;

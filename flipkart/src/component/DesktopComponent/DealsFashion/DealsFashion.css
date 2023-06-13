@@ -75,7 +75,7 @@
     box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.11);
     width: 47px;
     height: 104px;
-    right: 123px;
+    right: 0px;
   }
   .prev-Movement img, .next-Movement img{
     width: 14px;
@@ -96,12 +96,16 @@
     width: 47px;
     display: none;
     height: 104px;
-    left:390px ;
+    left:340px ;
   }
 }
 @media screen and (min-width: 1440px) {
 .FashionContainer{
   width: 250px;
+}
+.next-Movement {
+  top: calc(136% - 52px);
+  right: 123px;
 }
 .prev-Movement {
   top: calc(136% - 52px);

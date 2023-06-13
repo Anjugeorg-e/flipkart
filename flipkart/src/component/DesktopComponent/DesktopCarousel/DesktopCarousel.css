@@ -29,13 +29,13 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    top: calc(36% - 52px);
+    top: calc(52% - 52px);
     z-index: 2;
     background-color: #ffff;
     box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.11);
     width: 47px;
     height: 104px;
-    right: 96px;
+    right: 0px;
   }
   .leftSlider img, .rightSlider img{
     width: 14px;
@@ -49,13 +49,13 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    top: calc(96% - 52px);
+    top: calc(52% - 52px);
     background-color: #ffff;
     z-index: 2;
     box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.11);
     width: 47px;
     height: 104px;
-    left:390px ;
+    left:0px ;
   }
 
 }
