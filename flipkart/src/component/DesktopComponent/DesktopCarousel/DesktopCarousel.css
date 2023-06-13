@@ -4,6 +4,7 @@
 
 @media screen and (min-width: 1024px) {
   .carousalMainContainer {
+    padding-top: 12px;
     display: flex;
     align-items: center;
     overflow: hidden;
@@ -53,7 +54,6 @@
     z-index: 2;
     box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.11);
     width: 47px;
-    display: none;
     height: 104px;
     left:390px ;
   }
@@ -71,12 +71,12 @@
     margin-inline: auto;
   }
   .rightSlider {
-    top: calc(36% - 52px);
+    top: calc(49% - 52px);
     right: 123px;
   }
   .leftSlider {
-    top: calc(96% - 52px);
+    top: calc(49% - 52px);
     height: 104px;
-    left:90px ;
+    left:120px ;
   }
 }

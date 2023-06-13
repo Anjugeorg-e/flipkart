@@ -12,6 +12,9 @@
     margin-inline: auto;
     position: relative;
   }
+  .featuredBrands{
+    background-color: #fff;
+  }
   .brandsFeatures {
     display: flex;
   }

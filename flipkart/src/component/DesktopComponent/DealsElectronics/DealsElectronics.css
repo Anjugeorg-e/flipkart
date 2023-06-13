@@ -5,17 +5,19 @@
 @media screen and (min-width: 1024px) {
   .Electronics-Section {
     display: block;
-    padding: 0 22px;
     overflow: hidden;
+    max-width: 1600px;
+    margin-inline: auto;
   }
   .dealsOnElectronics {
     display: flex;
     position: relative;
     align-items: center;
+    background-color: #fff;
   }
   .electronicsContainer {
     display: flex;
-    width: 54%;
+    width: 44%;
   }
   .electronicsSubSection img {
     width: 150px;
@@ -102,12 +104,7 @@
 }
 
 @media screen and (min-width: 1440px) {
- 
-  .dealsOnElectronics {
-    padding: 0 123px;
-    overflow: hidden;
-    margin-inline-end: 112px;
-  }
+
   .right-Movement {
     top: calc(48% - 52px);
     right: 0px;
@@ -115,6 +112,6 @@
   .left-Movement {
     top: calc(48% - 52px);
     height: 104px;
-    left: 400px;
+    left: 280px;
   }
 }

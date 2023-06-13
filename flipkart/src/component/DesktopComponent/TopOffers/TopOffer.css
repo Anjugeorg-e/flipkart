@@ -14,7 +14,7 @@
     margin-inline: auto;
   }
   .ofContainer {
-    background: white;
+    background-color: #fff;
   }
   .offersContainer {
     display: flex;
@@ -22,6 +22,7 @@
     white-space: nowrap;
     text-overflow: ellipsis;
     width: 100%;
+    background-color: #fff;
   }
   .offerCards {
     padding: 25px 15px;

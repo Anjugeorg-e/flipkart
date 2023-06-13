@@ -30,27 +30,18 @@ function CarouselDesktop() {
     setIndex(index === length - 1 ? 0 : index + 1);
   };
   useEffect(() => {
-    const interval = setInterval(callIndex, 2000);
+    const interval = setInterval(callIndex, 3000);
     return () => clearInterval(interval);
   }, [data.length]);
 
-  const changeIndex = () => {
-    setIndex(index === length - 1 ? 0 : index + 1);
+  const handleClickRight = () => {
+    setIndex(index + 1);
+    clearInterval();
   };
-
-  // const handleClickRight = () => {
-  //   setIndex(index + 1);
-  //   changeIndex();
-  //   clearInterval();
-  // };
-
-  const handleClickRight= () => {
-    setIndex((index) => (index === 0 ? data.length -1 : index- 1))
-  }
 
   const handleClickLeft = () => {
     index = index - 1;
-    changeIndex();
+    callIndex();
     clearInterval();
   };
 
@@ -76,7 +67,7 @@ function CarouselDesktop() {
             </div>
           );
         })}
-        <div className="rightSlider" onClick={handleClickRight} >
+        <div className="rightSlider" onClick={handleClickRight}>
           <img src={leftarrow} />
         </div>
       </div>

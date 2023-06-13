@@ -27,7 +27,7 @@ function TopOffer() {
 
   const handleClickRight = () => {
     imageCard.current.style.transform = `translateX(${-35}%)`;
-    nextarrow.current.style.display = "none";
+    nextarrow.current.style.display = "flex";
     prevarrow.current.style.display = "flex";
     imageCard.current.style.transition = "transform ease-in-out 0.45s";
   };

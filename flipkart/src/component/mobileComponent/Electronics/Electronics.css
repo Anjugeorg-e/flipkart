@@ -3,21 +3,13 @@
     margin-top: 9px;
 }
 .phoneCards img{
-    width: 160px;
-    height: 207px;
+    width: 100%;
+    height: 100%;
 }
 
-
-@media screen and (min-width: 425px) {
-    .phoneCards img{
-        width: 212px;
-        height: 215px;
-    }
-}
 @media screen and (min-width: 768px) {
-    .phoneCards img{
-        width: 384px;
-        height: 497px;
+    .PhonesSection{
+        justify-content: space-between;
     }
 }
 @media screen  and (min-width: 1024px){

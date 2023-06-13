@@ -33,7 +33,6 @@
     box-shadow: rgb(150 150 150 / 16%) 0px 1px 1.5px;
 }
 .WishlistContainer{
-    /* box-shadow: rgb(150 150 150 / 16%) 0px 2px 1px; */
     background-color: rgb(241, 198, 197);
     padding-bottom: 9px;
 }
@@ -47,14 +46,6 @@
 .dealsCards:nth-of-type(3){
     border-right: 1px solid rgba(240,240,240,1.00);
 }
-/* .dealsCards:nth-of-type(4){
-    max-width: 100%;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap; */
-/* } */
-
 .dealsCards p{
     color: #388e3c;
     margin: 0;
